@@ -1,0 +1,460 @@
+/*loading fonts into css*/
+
+/*extraBold*/
+@font-face {
+    font-family: extraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf) 
+}
+
+/*semiBold*/
+@font-face {
+    font-family: semiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf) 
+}
+
+/*space background top of page*/
+.bg {
+    background-image: url(../images/background.png);
+    height: 94vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    position: relative;
+}
+
+/*our story button location */
+.ourStory {
+    padding-top: 90vh;
+    margin: 0;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+
+/*our story text location*/
+.ourStoryTextLocation
+{
+    padding-top: 92vh;
+    margin: 0;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0%);
+    cursor:pointer;
+}
+
+/*white bar fixed top*/
+.fixedHead {
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+
+/* top left corner logo location */
+.fixedLogo {
+    margin-left: 3.5%;
+    padding-top: 5px;
+}
+
+/* menu location */
+.menu
+{
+    padding-top: 34px;
+    margin-top: -21px;
+    margin-left: 12%;
+    padding-left: 5px;
+}
+
+/*green bar that seperates the middle of the landing page*/
+.greenMid {
+    background-image: url(../images/greenFooter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 40px;    
+}
+
+/*menu left margin changes as screen decreases*/
+@media only screen and (max-width: 1200px) {
+    .menu {
+    margin-left: 13%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .menu {
+    margin-left: 15%;
+    }
+}
+
+/* Font used for naviagtion menu text and other green 14 ft text */
+.boldGreenNormal
+{
+font-family: 'extraBold';
+font-size: 14px;
+color: #00ac4e;
+font-weight: bolder;
+}
+
+/* Header style for Our Story*/
+.boldBlack36{
+    font-family: 'extraBold';
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header style for In the Beginning */
+.regularBlack24{
+    font-family: 'semiBold';
+    font-size: 36px;
+    color: #212121;
+margin-left: 15%;
+}
+
+/* Setting margin to 0 for mobile devices*/
+@media only screen and (max-width: 400px) {
+.regularBlack24{
+    font-family: 'semiBold';
+    font-size: 36px;
+    color: #212121;
+    margin-left: 0;
+}
+}
+
+/* Changing navbar items to white with a green border for medium and small devices */
+@media only screen and (max-width: 767.98px) {
+.navbar-light .navbar-nav .nav-link 
+{
+    
+font-family: 'extraBold';
+font-size: 14px;
+color: white;
+background-color: #00ac4e;
+font-weight: bolder;
+    }
+}
+
+/* Contact Us menu item location (changes with dereasing screen size) */
+.contactLocation
+{
+    padding-left: 730px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .contactLocation {
+        padding-left: 655px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contactLocation {
+        padding-left: 585px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .contactLocation {
+        padding-left: 505px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .contactLocation {
+        padding-left: 415px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .contactLocation {
+        padding-left: 345px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .contactLocation {
+        padding-left: 260px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .contactLocation {
+        padding-left: 0px;
+    
+    }
+}
+
+/* Menu Icon Location (changes with dereasing screen size) */
+@media only screen and (max-width: 767.98px) {
+    .buttonLocation {
+        padding-left: 610px;
+        margin-left: 100px;
+        }
+}
+
+@media only screen and (max-width: 710px) {
+    .buttonLocation {
+        padding-left: 530px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .buttonLocation {
+        padding-left: 480px;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    .buttonLocation {
+        padding-left: 410px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .buttonLocation {
+        padding-left: 350px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .buttonLocation {
+        padding-left: 290px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .buttonLocation {
+        padding-left: 240px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .buttonLocation {
+        padding-left: 190px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .buttonLocation {
+        padding-left: 140px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .buttonLocation {
+        padding-left: 100px;
+    }
+}
+
+/* Contact Us Icon Location (changes with dereasing screen size) */
+.contactUsLocation
+{ 
+    margin-left: 12%;
+    padding-top: 22px;
+    padding-left: 1090px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .contactUsLocation {
+        padding-left: 1010px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contactUsLocation {
+        padding-left: 940px;
+        margin-left: 13%;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .contactUsLocation {
+        padding-left: 860px;
+        
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .contactUsLocation {
+        padding-left: 770px;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .contactUsLocation {
+        padding-left: 700px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .contactUsLocation {
+        padding-left: 615px;
+    }
+}
+
+/* Contact us icon disappears after menu collapses */
+@media only screen and (max-width: 767.98px) {
+    .contactUsLocation {
+        display: none;
+    
+    }
+}
+
+/* Our Story green underline (position stays in the mid center part of the screen as the screen size decreases ) */
+.ourGreenUnderline
+{
+    padding-right: 150px;
+    margin-top: -25px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+
+/* Green underline disappears after menu collapses */
+.ourGreenUnderlineContact
+{
+    padding-right: 180px;
+    margin-top: -25px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+
+/* Langing Page active underline */
+.menuUnderlineLocation
+{
+    margin-left: 12%;
+    padding-left: 3px;
+    padding-top: 32px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .menuUnderlineLocation {
+    margin-left: 13%;
+            padding-left: 3px;
+    padding-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .menuUnderlineLocation {
+    margin-left: 15%;
+            padding-left: 3px;
+    padding-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .menuUnderlineLocation {
+        display: none;
+    
+    }
+}
+
+/* Contact Us active underline */
+.menuUnderlineLocationContactUs
+{
+    margin-left: 12%;
+    padding-left: 984px;
+    padding-top: 32px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .menuUnderlineLocationContactUs {
+    margin-left: 13%;
+    padding-left: 896px;
+    padding-top: 32px;                
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .menuUnderlineLocationContactUs {
+    margin-left: 13%;
+    padding-left: 838px;
+    padding-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .menuUnderlineLocationContactUs {
+    margin-left: 15%;
+    padding-left: 739px;
+    padding-top: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .menuUnderlineLocationContactUs {
+
+    padding-left: 668px;
+    padding-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .menuUnderlineLocationContactUs {
+        padding-left: 599px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .menuUnderlineLocationContactUs {
+        padding-left: 514px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .menuUnderlineLocationContactUs {
+        display: none;
+    }
+}
+
+
+
+/* Navbar position for medium and small devices */
+@media only screen and (max-width: 767.98px) {
+    .navbar {
+    width: 140%;
+       left:40%;
+        text-align: center;
+    transform: translate(-50%,0%);
+        position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.25rem 0.75rem;
+        line-height: 40px;
+        font-family: extraBold;
+    }
+}
+
+/* Centering list items after menu collapses */
+@media only screen and (max-width: 767.98px){
+ul li {
+    transform: translate(0,43%);
+    margin-top: -10px;
+    font-family: extraBold;
+    }
+}
+
+/* Scroll up Icon */
+.scrollUpLocation{
+    transform: translate(50%,90%);
+    left: 90%;
+    top: 50%;
+    display: none;
+}
+
+.textBox
+{
+    width: 490px;
+}
